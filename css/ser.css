@@ -29,7 +29,7 @@
   #menu ul, li, li a { list-style: none; display: block; margin: 0; padding: 0; }
   #menu li a { font-size: 26px; display: inline-block; text-transform: uppercase; letter-spacing: 4px; font-weight: 300; padding: 15px 0; color: rgba(255,255,255,.25); text-decoration: none; }
   #menu li.active a { color: rgba(255,255,255,1); position: relative; }
-  #menu li.active a:after  { color: rgba(255,255,255,1); content: ""; position: absolute; background: #dd3154; top: 50%; transform: translate(0,-50%); left: 0; width: 100%; height: 2px; }
+  #menu li.active a:after  { color: rgba(255,255,255,1); content: ""; position: absolute; background: rgba(221, 49, 84, 0.50); top: 50%; transform: translate(0,-50%); left: 0; width: 100%; height: 2px; }
   #menu li a:hover,
   #menu li a:focus { color: rgba(255,255,255,1); }
 
@@ -69,7 +69,7 @@
   blockquote:before { content: "\F036"; font-family: "Black Tie"; font-size: 24px; font-weight: 200; color: #dd3154; position: absolute; left: -15px; top: -15px; }
   blockquote:after { content: "Vitalik Buterin"; font-size: 12px; font-weight: 300; color: rgba(255,255,255,.25); position: absolute; left: 50%; transform: translate(-50%,0); bottom: -10px; font-style: italic; }
 
-  /* content - social */  
+  /* content - social */
   .social { margin: 0; padding: 15px 0 0 !important; }
   .social div { display: inline-block; margin: 0; padding: 5px !important; }
   .social a { width: auto; padding: 0; margin: 0; color: rgba(255,255,255,0.15); font-size: 16px; display: inline-block; line-height: 1.5; text-transform: uppercase; font-weight: 600; letter-spacing: 6px; position: relative; }
