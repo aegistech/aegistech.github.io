@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>AEGIS</title>
+	<meta name="author" content="satoshi_kek">
+	<meta name="description" content="AEGIS">
+	<meta name="keywords" content="AEGIS Travel OTA GDS Blockchain Smart Contrats Hospitality">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<link href="css/css.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+	<link href="css/black-tie.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/bootstrap-custom.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/ser.css">
+
+    <script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['start', 'about', 'work', 'touch'],
+				recordHistory: true,
+                scrollingSpeed: 1000,
+				slidesNavigation: true,
+				loopHorizontal: false,
+				afterLoad: function (anchorLink, index) {
+					//section 2 loaded
+					if (index == 2) {
+						//adding active class to the 1st element in the slide menu
+						$('#menu').find('li').eq(0).addClass('active');
+						$('#menu').find('li').eq(1).removeClass('active');
+						$('#menu').find('li').eq(2).removeClass('active');
+					}
+					if (index == 3) {
+						//adding active class to the 1st element in the slide menu
+						$('#menu').find('li').eq(1).addClass('active');
+						$('#menu').find('li').eq(0).removeClass('active');
+						$('#menu').find('li').eq(2).removeClass('active');
+					}
+					if (index == 4) {
+						//adding active class to the 1st element in the slide menu
+						$('#menu').find('li').eq(2).addClass('active');
+						$('#menu').find('li').eq(1).removeClass('active');
+						$('#menu').find('li').eq(0).removeClass('active');
+					}
+				}
+			});
+		});
+
+
+	</script>
+</head>
+<body>
+
+<div class="borders"></div>
+<div id="particles-js"></div>
+
+<div class="header">
+  <a href="#start" class="logo"><img src="images/logo.png" alt=""></a>
+  <div id="toggle">
+	<div class="one"></div>
+	<div class="three"></div>
+	<div class="two"></div>
+  </div>
+  <div id="menu">
+	<ul>
+	  <li><a href="#about">About Aegis</a></li>
+	  <li><a href="#work">Technology | aegis shard</a></li>
+	  <li><a href="#touch">Get In Touch</a></li>
+	</ul>
+  </div>
+</div>
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<div class="content">
+		  <div class="content-inner">
+			<div class="quote">
+			  <div class="title">|Decentralised Travel|</div>
+			  AEGIS
+			  <div class="sub">Decentralised<span>Travel</span></div>
+			</div>
+			<div data-menuanchor="about" class="more"><a href="#about" class="btr bt-arrow-down"></a></div>
+		  </div>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="content">
+		  <div class="content-inner">
+			  <div class="text">
+A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another <span>without going through a financial institution</span>. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. <span>The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work</span>, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone
+			  </div>
+		  </div>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="slide active">
+		  <div class="content work">
+			<div class="content-inner">
+				<div class="project-wrap">
+				  <div class="project" style="background: url(images/pic01.jpg) left top; background-size: cover; ">
+					<div class="project-content">
+						<span>Satoshi</span>
+						<div class="title">Satoshi</div>
+						<a href="http://www.hjpithadia.me/" onclick="this.target='_blank'" class="btn-ser">view</a>
+					</div>
+				  </div>
+				</div>
+			</div>
+		  </div>
+        </div>
+		<div class="slide">
+		  <div class="content work">
+			<div class="content-inner">
+				<div class="project-wrap">
+				  <div class="project" style="background: url(images/pic02.jpg) left top; background-size: cover; ">
+					<div class="project-content">
+						<span>Satoshi</span>
+						<div class="title">Satoshi</div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		  </div>
+        </div>
+		<div class="slide">
+		  <div class="content work">
+			<div class="content-inner">
+				<div class="project-wrap">
+				  <div class="project" style="background: url(images/pic03.jpg) left top; background-size: cover; ">
+					<div class="project-content">
+						<span>Satoshi</span>
+						<div class="title">Satoshi</div>
+						<a href="http://www.hjpithadia.me/" onclick="this.target='_blank'" class="btn-ser">view</a>
+					</div>
+				  </div>
+				</div>
+			</div>
+		  </div>
+        </div>
+		<div class="slide">
+		  <div class="content work">
+			<div class="content-inner">
+				<div class="project-wrap">
+				  <div class="project" style="background: url(images/pic04.jpg) left top; background-size: cover; ">
+					<div class="project-content">
+						<span>Satoshi</span>
+						<div class="title">Satoshi</div>
+						<a href="http://www.hjpithadia.me/" onclick="this.target='_blank'" class="btn-ser">view</a>
+					</div>
+				  </div>
+				</div>
+			</div>
+		  </div>
+        </div>
+		<div class="slide">
+		  <div class="content work">
+			<div class="content-inner">
+				<div class="project-wrap">
+				  <div class="project" style="background: url(images/pic01.jpg) left top; background-size: cover; ">
+					<div class="project-content">
+						<span>Satoshi</span>
+						<div class="title">Satoshi</div>
+						<a href="http://www.hjpithadia.me/" onclick="this.target='_blank'" class="btn-ser">view</a>
+					</div>
+				  </div>
+				</div>
+			</div>
+		  </div>
+        </div>
+	</div>
+	<div class="section" id="section1">
+		<div class="content">
+		  <div class="content-inner">
+			  <blockquote>Decentralisation is decentralisation is decentralisation......</blockquote>
+			  <div class="text border">
+				If you want to collaborate on crafting amazing stuff (some good stuff, the best stuff) or you just like to say hello and have a coffee/beer (root kek), feel free to get in touch. These are our contact details.
+				<div class="social">
+				  <div><a href="http://www.hjpithadia.me/" onclick="this.target='_blank'">PlebMedia</a></div>
+				  <div><a href="hhttp://www.hjpithadia.me/" onclick="this.target='_blank'">Linkedin</a></div>
+				  <div><a href="mailto:hjpithadia@hjpithadia.me">mail</a></div>
+				</div>
+			  </div>
+		  </div>
+		</div>
+	</div>
+
+</div>
+
+
+<!-- Modal -->
+	<script src="js/particles.min.js"></script>
+	<script src="js/app.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/ser.js"></script>
+
+
+</body>
+</html>
