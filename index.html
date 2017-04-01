@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>AEGIS</title>
-	<meta name="author" content="satoshi_kek">
+	<meta name="author" content="hjpithadia">
 	<meta name="description" content="AEGIS">
 	<meta name="keywords" content="AEGIS Travel OTA GDS Blockchain Smart Contrats Hospitality">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -29,7 +29,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['start', 'about', 'work', 'touch'],
+				anchors: ['start', 'about', 'stake', 'dione','delphi','contact'],
 				recordHistory: true,
                 scrollingSpeed: 1000,
 				slidesNavigation: true,
@@ -41,16 +41,38 @@
 						$('#menu').find('li').eq(0).addClass('active');
 						$('#menu').find('li').eq(1).removeClass('active');
 						$('#menu').find('li').eq(2).removeClass('active');
+						$('#menu').find('li').eq(3).removeClass('active');
+						$('#menu').find('li').eq(4).removeClass('active');
 					}
 					if (index == 3) {
 						//adding active class to the 1st element in the slide menu
 						$('#menu').find('li').eq(1).addClass('active');
 						$('#menu').find('li').eq(0).removeClass('active');
 						$('#menu').find('li').eq(2).removeClass('active');
+						$('#menu').find('li').eq(3).removeClass('active');
+						$('#menu').find('li').eq(4).removeClass('active');
 					}
 					if (index == 4) {
 						//adding active class to the 1st element in the slide menu
 						$('#menu').find('li').eq(2).addClass('active');
+						$('#menu').find('li').eq(1).removeClass('active');
+						$('#menu').find('li').eq(0).removeClass('active');
+						$('#menu').find('li').eq(3).removeClass('active');
+						$('#menu').find('li').eq(4).removeClass('active');
+					}
+					if (index == 5) {
+						//adding active class to the 1st element in the slide menu
+					  $('#menu').find('li').eq(3).addClass('active');
+						$('#menu').find('li').eq(2).removeClass('active');
+						$('#menu').find('li').eq(1).removeClass('active');
+						$('#menu').find('li').eq(0).removeClass('active');
+						$('#menu').find('li').eq(4).removeClass('active');
+					}
+					if (index == 6) {
+						//adding active class to the 1st element in the slide menu
+						$('#menu').find('li').eq(4).addClass('active');
+						$('#menu').find('li').eq(3).removeClass('active');
+						$('#menu').find('li').eq(2).removeClass('active');
 						$('#menu').find('li').eq(1).removeClass('active');
 						$('#menu').find('li').eq(0).removeClass('active');
 					}
@@ -76,20 +98,24 @@
   <div id="menu">
 	<ul>
 	  <li><a href="#about">About Aegis</a></li>
-	  <li><a href="#work">Technology | aegis shard</a></li>
+	  <li><a href="#sol">Our Solutions</a></li>
+		<li><a href="#dione">Technology | Dione</a></li>
+		<li><a href="#delphi">Technology | Delphi</a></li>
 	  <li><a href="#touch">Get In Touch</a></li>
 	</ul>
   </div>
 </div>
 
 <div id="fullpage">
+
+	<!-- About -->
 	<div class="section" id="section0">
 		<div class="content">
 		  <div class="content-inner">
 			<div class="quote">
 			  <div class="title">|Decentralised Travel|</div>
 			  AEGIS
-			  <div class="sub">Decentralised<span>Travel</span></div>
+			  <div class="sub">Dione<span>|Delphi</span></div>
 			</div>
 			<div data-menuanchor="about" class="more"><a href="#about" class="btr bt-arrow-down"></a></div>
 		  </div>
@@ -99,106 +125,184 @@
 		<div class="content">
 		  <div class="content-inner">
 			  <div class="text">
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another <span>without going through a financial institution</span>. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. <span>The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work</span>, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone
+           Aegis is a decentralised hotel booking and inventory management platform. We leverage blockchain technology to provide you with the cheapest bookings, fairest listings and a more flexible booking service. Navigate below to find out more...
 			  </div>
 		  </div>
 		</div>
 	</div>
+
+
+	<!-- Stakeholders -->
 	<div class="section" id="section1">
 		<div class="slide active">
 		  <div class="content work">
 			<div class="content-inner">
 				<div class="project-wrap">
-				  <div class="project" style="background: url(images/pic01.jpg) left top; background-size: cover; ">
-					<div class="project-content">
-						<span>Satoshi</span>
-						<div class="title">Satoshi</div>
-						<a href="http://www.hjpithadia.me/" onclick="this.target='_blank'" class="btn-ser">view</a>
+					<div class="text">
+						 <img src="images/tour.png" alt="Tour" style=" width: 100%;height: auto;">
+						 <div class="project-content">
+							 Enjoy a seamless holiday shopping experience at the most competitive prices.</br>
+							 <a href="#" onclick="this.target='_blank'" class="btn-ser">Learn More</a>
+						 </div>
 					</div>
-				  </div>
 				</div>
 			</div>
 		  </div>
         </div>
 		<div class="slide">
-		  <div class="content work">
+			<div class="content work">
 			<div class="content-inner">
 				<div class="project-wrap">
-				  <div class="project" style="background: url(images/pic02.jpg) left top; background-size: cover; ">
-					<div class="project-content">
-						<span>Satoshi</span>
-						<div class="title">Satoshi</div>
+					<div class="text">
+						 <img src="images/hotels.png" alt="Hotel" style=" width: 100%;height: auto;">
+						 <div class="project-content">
+							 Attract, Reach and Convert guests with Aegis. We provide API level access as well as a fully integrated, customisable front end.</br>
+							 <a href="#" onclick="this.target='_blank'" class="btn-ser">Learn More</a>
+						 </div>
 					</div>
-				  </div>
 				</div>
 			</div>
 		  </div>
         </div>
-		<div class="slide">
-		  <div class="content work">
-			<div class="content-inner">
-				<div class="project-wrap">
-				  <div class="project" style="background: url(images/pic03.jpg) left top; background-size: cover; ">
-					<div class="project-content">
-						<span>Satoshi</span>
-						<div class="title">Satoshi</div>
-						<a href="http://www.hjpithadia.me/" onclick="this.target='_blank'" class="btn-ser">view</a>
+
+				<div class="slide">
+					<div class="content work">
+					<div class="content-inner">
+						<div class="h_iframe">
+							<!-- a transparent image is preferable -->
+						<iframe frameborder='0' height='465px' width='470px' scrolling='no' src='https://www.youtube.com/embed/_vmbY3Ccvmw' frameborder="0" allowfullscreen></iframe>
 					</div>
-				  </div>
+			</div>
+			</div>
+			</div>
+</div>
+
+
+<!-- Dione -->
+<div class="section" id="section1">
+	<div class="slide">
+		<div class="content work">
+		<div class="content-inner">
+			<div class="project-wrap">
+				<div class="text">
+					 <img src="images/dion.png" alt="Hotel" style=" width: 100%;height: auto;">
 				</div>
 			</div>
-		  </div>
-        </div>
-		<div class="slide">
-		  <div class="content work">
-			<div class="content-inner">
-				<div class="project-wrap">
-				  <div class="project" style="background: url(images/pic04.jpg) left top; background-size: cover; ">
-					<div class="project-content">
-						<span>Satoshi</span>
-						<div class="title">Satoshi</div>
-						<a href="http://www.hjpithadia.me/" onclick="this.target='_blank'" class="btn-ser">view</a>
-					</div>
-				  </div>
-				</div>
-			</div>
-		  </div>
-        </div>
-		<div class="slide">
-		  <div class="content work">
-			<div class="content-inner">
-				<div class="project-wrap">
-				  <div class="project" style="background: url(images/pic01.jpg) left top; background-size: cover; ">
-					<div class="project-content">
-						<span>Satoshi</span>
-						<div class="title">Satoshi</div>
-						<a href="http://www.hjpithadia.me/" onclick="this.target='_blank'" class="btn-ser">view</a>
-					</div>
-				  </div>
-				</div>
-			</div>
-		  </div>
-        </div>
-	</div>
-	<div class="section" id="section1">
-		<div class="content">
-		  <div class="content-inner">
-			  <blockquote>Decentralisation is decentralisation is decentralisation......</blockquote>
-			  <div class="text border">
-				If you want to collaborate on crafting amazing stuff (some good stuff, the best stuff) or you just like to say hello and have a coffee/beer (root kek), feel free to get in touch. These are our contact details.
-				<div class="social">
-				  <div><a href="http://www.hjpithadia.me/" onclick="this.target='_blank'">PlebMedia</a></div>
-				  <div><a href="hhttp://www.hjpithadia.me/" onclick="this.target='_blank'">Linkedin</a></div>
-				  <div><a href="mailto:hjpithadia@hjpithadia.me">mail</a></div>
-				</div>
-			  </div>
-		  </div>
+		</div>
 		</div>
 	</div>
+	<div class="slide">
+		<div class="content work">
+			  <div class="content-inner">
+				  <div class="text2">
+						Smart contracts form the building block of Aegis. For instance, you as a hotelier may wants to list your room, all you have to do is create a smart contract from our templates and list the smart contract for sale. If a tourist is wants to make a booking for your room, he/she purchases this contract. Once the payment is made the smart contract is run on the blockchain. As soon as this happens it becomes a self-operating, self-enforceable computer program that executes when the programmed conditions are met.</br>
+						So why would this, as a hotelier or tourist, help you? You could use this to manage the length of booking and stay or perhaps even help mediate escrow based payment agreements between each other.</br>
+						At the core of the platform the global blockchain ledger that maintains the state of all agreements and smart contracts made through the platform. This is cryptographically secured and kept synchronised in real time across the globe. Just this “real-time, across the globe” capability allows services such as real-time booking, payments and cancellations.
+				  </div>
+			  </div>
+		</div>
+			</div>
+</div>
+
+
+<!-- Stakeholders -->
+<div class="section" id="section1">
+	<div class="slide">
+		<div class="content work">
+		<div class="content-inner">
+			<div class="project-wrap">
+				<div class="text">
+					 <img src="images/delph.png" alt="Hotel" style=" width: 100%;height: auto;">
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="slide">
+		<div class="content work">
+		<div class="content-inner">
+			<div class="project-wrap">
+				<div class="project" style="background: url(images/log.png) left top; background-size: cover; ">
+				</div>
+			</div>
+		</div>
+		</div>
+			</div>
+	<div class="slide">
+		<div class="content work">
+		<div class="content-inner">
+			<div class="project-wrap">
+				<div class="project" style="background: url(images/channels.png) left top; background-size: cover; ">
+				</div>
+			</div>
+		</div>
+		</div>
+			</div>
+	<div class="slide">
+		<div class="content work">
+		<div class="content-inner">
+			<div class="project-wrap">
+				<div class="project" style="background: url(images/nav.png) left top; background-size: cover; ">
+				</div>
+			</div>
+		</div>
+		</div>
+			</div>
+			<div class="slide">
+				<div class="content work">
+				<div class="content-inner">
+					<div class="project-wrap">
+						<div class="project" style="background: url(images/comments.png) left top; background-size: cover; ">
+						</div>
+					</div>
+				</div>
+				</div>
+					</div>
+					<div class="slide">
+						<div class="content work">
+						<div class="content-inner">
+							<div class="project-wrap">
+								<div class="project" style="background: url(images/cal.png) left top; background-size: cover; ">
+								</div>
+							</div>
+						</div>
+						</div>
+							</div>
+					<div class="slide">
+						<div class="content work">
+						<div class="content-inner">
+							<div class="project-wrap">
+								<div class="project" style="background: url(images/feedback.png) left top; background-size: cover; ">
+								</div>
+							</div>
+						</div>
+						</div>
+							</div>
+
 
 </div>
 
 
+<!-- Contact -->
+<div class="section" id="section1">
+<div class="content">
+	<div class="content-inner">
+		<div class="text border">
+			We would love to here from you. Get in touch or follow us on social media to keep up to date with our development cycle (and invitations to the beta test!)
+		<div class="social">
+			<div><a href="http://www.hjpithadia.me/" onclick="this.target='_blank'">AegisMedia</a></div>
+			<div><a href="hhttp://www.hjpithadia.me/" onclick="this.target='_blank'">Twitter</a></div>
+			<div><a href="hhttp://www.hjpithadia.me/" onclick="this.target='_blank'">Linkedin</a></div>
+			<div><a href="mailto:hj@hjpithadia.me">mail</a></div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+</div>
 <!-- Modal -->
 	<script src="js/particles.min.js"></script>
 	<script src="js/app.js"></script>
